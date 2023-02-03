@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "test": "vitest"
+    "test": "vitest",
+    "start:dev": "vite build && vite"
   },
   "repository": {
     "type": "git",

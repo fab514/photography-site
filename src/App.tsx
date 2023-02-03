@@ -1,17 +1,13 @@
 import React from "react";
+import LinkWrapper from "./Components/LinkWrapper";
+import Navigation from "./Components/Navigation";
 
 function App() {
     return (
         <>
-            <div>This is an app</div>
-            <div>Home</div>
-            <div>About</div>
-            <div>Gallery</div>
-            <div>Details</div>
-            <div>Testimonials</div>
-            <div>Contact</div>
+            <div>My Photography Website</div>
+            <Navigation />
         </>
-
     )
 }
 
