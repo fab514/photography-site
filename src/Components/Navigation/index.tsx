@@ -7,7 +7,7 @@ function Navigation() {
         <>
             <NavigationStyled>
                 <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"app"}>This is an app</LinkWrapper>
-                <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"home"}>Home</LinkWrapper>
+                <LinkWrapper to={`home`} target={"_blank"} ariaLabel={"home"}>Home</LinkWrapper>
                 <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"about"}>About</LinkWrapper>
                 <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"gallery"}>Gallery</LinkWrapper>
                 <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"details"}>Details</LinkWrapper>
