@@ -1,14 +1,8 @@
 import React from "react";
-import LinkWrapper from "./Components/LinkWrapper";
-import Navigation from "./Components/Navigation";
+import ReactRouter from "./ReactRouter";
 
 function App() {
-    return (
-        <>
-            <div>My Photography Website</div>
-            <Navigation />
-        </>
-    )
+    return <ReactRouter />
 }
 
 export default App;

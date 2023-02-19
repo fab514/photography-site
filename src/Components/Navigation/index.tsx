@@ -6,13 +6,12 @@ function Navigation() {
     return (
         <>
             <NavigationStyled>
-                <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"app"}>This is an app</LinkWrapper>
-                <LinkWrapper to={`home`} target={"_blank"} ariaLabel={"home"}>Home</LinkWrapper>
-                <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"about"}>About</LinkWrapper>
-                <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"gallery"}>Gallery</LinkWrapper>
-                <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"details"}>Details</LinkWrapper>
-                <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"testimonials"}>Testimonials</LinkWrapper>
-                <LinkWrapper href={"https://www.google.com/"} target={"_blank"} ariaLabel={"contact"}>Contact</LinkWrapper>
+                <LinkWrapper to={"../Home"} target={"_blank"} ariaLabel={"home"}>Home</LinkWrapper>
+                <LinkWrapper to={"../About"} target={"_blank"} ariaLabel={"about"}>About</LinkWrapper>
+                <LinkWrapper to={"../Gallery"} target={"_blank"} ariaLabel={"gallery"}>Gallery</LinkWrapper>
+                <LinkWrapper to={"../Details"} target={"_blank"} ariaLabel={"details"}>Details</LinkWrapper>
+                <LinkWrapper to={"../Testimonials"} target={"_blank"} ariaLabel={"testimonials"}>Testimonials</LinkWrapper>
+                <LinkWrapper to={"../Contact"} target={"_blank"} ariaLabel={"contact"}>Contact</LinkWrapper>
             </NavigationStyled>
         </>
     )

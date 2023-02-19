@@ -5,7 +5,6 @@ function Home() {
     return (
         <>
             <div>This is the Home Section!</div>
-            <Navigation />
         </>
     )
 }
